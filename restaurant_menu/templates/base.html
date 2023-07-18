@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <title>Menu Products</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=SNU3RDCuqQR3bblwY1Leii-LXgseqnfbsXfOdoM1v65jv0GirgT9PTiTBcAvN1izYz8ilh0eevab0Lbms7x4AyKODpT4w-ZgihJqIyxqalHKAD7VEfn4rREsflrmztkA-HUSpGIG_9-0Gg-2MqEr2QL8Dd4SulvvAco2x7_y2456wXYU8X75eeA-2u6nTUGKrGeFFVQoOmg7XX6uClSv30I18Bg0QaLzoOlNtRSq0klkifKgGTwglOiHswpi5ZCNwIjsgxGVxu5DkfNhZfApWDpw1Si5RIXXBmCpshCdstfHbQHVCWbW0hsLDOOKsAEct0CrkKL41fBzIqa_fITyCg2uTXXjeYu06GJ6k0XXDOufRz3_9oR1dn5MvTGzKHXZTbtu9HqZv7A4yQDyoQv3W_spep6nV3TdbmS7IMKc4N8ZWFBDqCkG3ti1c70cQfjfQZzHJ32qB5H89sp6cjc5lz7r1Afu4STzASvdGRuMBSoM30UTo7KbXuO-WVV7fy2EauuIs7OA79q6YbIUXOd4NP9lteBjAYrvMNcfpKkxksPeArk7FSMifwy2o04Plbw2dGDhOatbZot_f_oXilhMX92337LxVdR0NOOFg-AQWBSWzTEAqePAaU8q_4AZd_ZzStY6DEI0IT_sJksZKWUAMb0V5M64M3MV4githYV2a1Rlt3xK9OgBHQQHw83ojBwix2DCAz4xmXtLgrOuULnD93Rpck7hvV6I13TqXrlLGwN0tJ3P7OyKIEtbRXBcxuyK_XtMNyO-wx3eq27wkoEzNw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hdHQtYy51ZGVteWNkbi5jb20vMjAyMy0wNS0xMl8wOS01NS00Ni1hOWQwMGNmZDZmOGU0ZWZkOGRmZTJjNGMyZTcwOWI5MC9vcmlnaW5hbC5odG1sP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249YXR0YWNobWVudCUzYiUyMGZpbGVuYW1lJTNkYmFzZS5odG1sJkV4cGlyZXM9MTY4OTcwNDcxNCZTaWduYXR1cmU9ak1JTzNlc0tWY3lCbHJsUzhrT1hSRWp3elV-cTJ1QnQyUVlKUHRLMzFmVW01M1JGb0Z-VVlpTkp-dXRaTEhLNER3U0dubVBNcjRhLW9XRFA3NmhIckxxZ243SW5ld1VHU1pNMU4wSjJkNzJjUnotRng2WFFTYkQ1NjZ2MzA0SW5IVndqQzdBQmV5cGF6UWFYVTBwWk5acUpRSS1rbW4tSlhTS0swWEgzQlVRcDNlV3ZEZVN6amJucFdPaVRUMkZWaDJlN0o1a3JxMWdHVlkzU1h2TnlSZ1lzYnd2cFFCbWMtZ3U2Mmd0aXR6dEd-S3kwdWZOSFo3eE5JSnZlNzZ2Sm8xbndIOVRraU5HZWYzYU5vb1NYZDNXSG0td0s2QjFhU2FZZTlzcE1-WjJCS01-QTJma1ZPcTR0MFFTdUhETk05dzYxa0VtZ05sT0F1ZDNuNDlFTnVnX18mS2V5LVBhaXItSWQ9QVBLQUlUSlY3N1dTNVpUNzI2MkE"/></head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'about' %}">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        {% block content %}
+        {% endblock content %}
+
+<!-- JavaScript Bundle with Popper -->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>
